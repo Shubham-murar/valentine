@@ -1,7 +1,6 @@
-"use client";
 import { useState } from "react";
 
-export default function Page() {
+export default function App() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
   const yesButtonSize = noCount * 20 + 16;
@@ -14,15 +13,15 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "Really sure?",
-      "Think again!",
+      "WHYYY PAGAAAAL?",
+      "Think again or ANGYY!",
       "Last chance!",
-      "Surely not?",
-      "You might regret this!",
+      "Surely not hmpph?",
+      "You might regret this dumb!",
       "Give it another thought!",
       "Are you absolutely certain?",
       "This could be a mistake!",
-      "Have a heart!",
+      "Blud, Have a heart!",
       "Don't be so cold!",
       "Change of heart?",
       "Wouldn't you reconsider?",
@@ -43,7 +42,7 @@ export default function Page() {
       ) : (
         <>
           <img className="h-[200px]" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" />
-          <h1 className="text-4xl my-4">Will you be my Valentine?</h1>
+          <h1 className="text-4xl my-4">Hey CHOTUU😡! Will you be my Valentine?</h1>
           <div>
             <button
               className={`bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-4`}
